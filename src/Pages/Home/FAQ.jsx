@@ -50,7 +50,7 @@ const FAQ = () => {
                 <img src={faq} />
             </div>
             <div className="mb-24">
-                <h1 className="text-center text-4xl my-5 font-bold">কিছু কমন প্রশ্ন</h1>
+                <h1 className="text-center text-4xl my-5 font-bold text-[#63D5D7]">কিছু কমন প্রশ্ন</h1>
                 <Faq
                     data={data}
                     styles={styles}

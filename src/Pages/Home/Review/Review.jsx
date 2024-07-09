@@ -21,6 +21,9 @@ import slide_image_7 from '../../../assets/Review/img_7.jpg';
 const Review = () => {
   return (
     <div className='mb-28'>
+      <div>
+        <h1 className='text-center font-bold text-4xl text-[#63D5D7]'>ছাত্রীদের কথা</h1>
+      </div>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -9,7 +9,7 @@ const ContactUs = () => {
                 <p>কোন প্রশ্ন থাকলে নির্দ্বিধায় জিজ্ঞেস করতে পারেন আমাদের</p>
             </div>
             <div className="flex justify-around gap-4 mb-24 flex-col lg:flex-row items-center">
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title flex justify-center">শাখা-১</h2>
                         <div className="flex gap-3 items-center">
@@ -22,8 +22,8 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
-                <div className="card-body">
+                <div className="card bg-base-100 shadow-xl">
+                    <div className="card-body">
                         <h2 className="card-title flex justify-center">শাখা-২</h2>
                         <div className="flex gap-3 items-center">
                             <img src={location} />
@@ -35,19 +35,22 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
-                <div className="card-body">
+                <div className="card bg-base-100 shadow-xl">
+                    <div className="card-body">
                         <h2 className="card-title flex justify-center">শাখা-৩</h2>
                         <div className="flex gap-3 items-center">
                             <img src={location} />
-                            <p>৬৪/এ, মনিপুরীপাড়া ফার্মগেট, ঢাকা</p>   
+                            <p>৬৪/এ, মনিপুরীপাড়া ফার্মগেট, ঢাকা</p>
                         </div>
                         <div className="flex gap-3 items-center">
                             <img src={phone} />
-                            <p className="mt-4">০১৭৩৯৭২১৭১১</p>  
+                            <p className="mt-4">০১৭৩৯৭২১৭১১</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6302809118665!2d90.38376307522252!3d23.760560188386478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9c33341ca8f%3A0x30a34adbb2177bff!2sChayanir%20Women&#39;s%20Hostel%20(unit-3)!5e0!3m2!1sen!2sbd!4v1720526022740!5m2!1sen!2sbd" className="w-full h-[450px] rounded-xl"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></p>
             </div>
             <div className="flex justify-between items-center">
                 <div className="flex-1">

@@ -1,12 +1,12 @@
-import type_1 from '../../assets/Room Types/type-1.jpg'
-import type_2 from '../../assets/Room Types/type-2.jpg'
-import type_3 from '../../assets/Room Types/type-3.jpg'
-import type_4 from '../../assets/Room Types/type-4.jpg'
+import type_1 from '../../assets/Room Types/room-1.jpg'
+import type_2 from '../../assets/Room Types/room-2.jpg'
+import type_3 from '../../assets/Room Types/room-3.jpg'
+import type_4 from '../../assets/Room Types/room-4.jpg'
 const RoomTypes = () => {
     return (
         <div>
             <div className="mb-10">
-                <h1 className="text-center font-bold text-4xl">রুমের ধরন</h1>
+                <h1 className="text-center font-bold text-4xl text-[#63D5D7]">রুমের ধরন</h1>
             </div>
             <div className='flex justify-between gap-6 items-center mb-20 flex-col-reverse md:flex-row'>
                 <div className='flex-1'>

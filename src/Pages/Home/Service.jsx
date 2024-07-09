@@ -12,7 +12,7 @@ const Service = () => {
     return (
         <div className="my-24">
             <div className="mb-10">
-                <h1 className="text-center font-bold text-4xl">সার্ভিস সমূহ</h1>
+                <h1 className="text-center font-bold text-4xl text-[#63D5D7]">সার্ভিস সমূহ</h1>
             </div>
             <div className="flex flex-col md:flex-row justify-around items-center text-xl">
                 <div className="flex flex-col gap-5">

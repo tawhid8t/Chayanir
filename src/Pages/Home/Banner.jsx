@@ -1,15 +1,15 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-import img1 from '../../assets/Banner/slider-1.jpg'
-import img2 from '../../assets/Banner/slider-2.jpg'
-import img3 from '../../assets/Banner/slider-3.jpg'
+import img1 from '../../assets/Banner/Banner-1.jpg'
+import img2 from '../../assets/Banner/Banner-3.jpg'
+import img3 from '../../assets/Banner/Banner-5.jpg'
 
 const Banner = () => {
     
 
     return (
-        <div>
+        <div className="mt-10">
             <Carousel autoPlay>
                 <div>
                     <img src={img1} />
