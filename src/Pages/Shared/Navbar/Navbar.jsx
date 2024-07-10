@@ -71,8 +71,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex justify-between items-center">
-                        <img className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20" src={logo}/>
-                        <a className="btn btn-ghost text-base md:text-xl bold-text">ছায়ানীড় ছাত্রী হোস্টেল</a>
+                        <img className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20" src={logo} />
+                        <a className="w-52 ml-4 md:w-72 font-bold text-base md:text-xl bold-text">ছায়ানীড় ছাত্রী হোস্টেল</a>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -82,9 +82,37 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end flex gap-4 items-center">
-                    <a className="btn">ভর্তি</a>
+                    <button className="btn" onClick={() => document.getElementById('my_modal_2').showModal()}>ভর্তি</button>
                 </div>
             </div>
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+
+            <dialog id="my_modal_2" className="modal">
+                <div className="modal-box">
+                    <h3 className="font-bold text-3xl text-center">ভর্তির নির্দেশনাবলী</h3>
+                    <li className="py-3">সীট বুকিং-এর সময় ভর্তি ফী অফেরতযোগ্য এবং ১ মাসের সীট ভাড়া জামানত হিসেবে দিতে হবে।</li>
+                    <li className="py-3">তাৎক্ষণিক সমপরিমান টাকা না থাকলে সাত দিনের মধ্যে বিকাশ অথবা হোস্টেলের নির্ধারিত ব্যাংকে জমা দিতে হবে।</li>
+                    <li className="py-3">হোস্টেলের সীট ছাড়তে চাইলে ২ মাস আগে (৬০ দিন) হোস্টেলের নির্ধারিত ফরমে বা লিখিতভাবে আবেদন জমা দিতে হবে।</li>
+                    <h3>ভর্তির জন্য নিচে দেওয়া যেকোনো নাম্বারে ফোন করুন অথবা আমাদের ফেসবুক পেজে মেসেজ দিন</h3>
+                    <div className="flex justify-between mt-4 flex-col md:flex-row gap-4">
+                        <div>
+                            <h1 className="font-bold">শাখা-১</h1>
+                            <h3>01776371617</h3>
+                        </div>
+                        <div>
+                            <h1 className="font-bold">শাখা-2</h1>
+                            <h3>01705630680</h3>
+                        </div>
+                        <div>
+                            <h1 className="font-bold">শাখা-3</h1>
+                            <h3>01739731711</h3>
+                        </div>
+                    </div>
+                </div>
+                <form method="dialog" className="modal-backdrop">
+                    <button>close</button>
+                </form>
+            </dialog>
         </div>
     );
 };

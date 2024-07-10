@@ -13,7 +13,7 @@ const Food = () => {
                 <h1 className=" font-bold text-4xl text-[#63D5D7]">খাবার তালিকা</h1>
                 <p className='text-xl'>খাবার মেনু দেখতে ছবিতে ক্লিক করুন</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 <div className="card shadow-xl mb-6 mx-auto">
                     <div className="card-inner">
                         <div className="card-front flex flex-col">

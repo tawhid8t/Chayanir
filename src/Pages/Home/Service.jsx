@@ -14,50 +14,46 @@ const Service = () => {
             <div className="mb-10">
                 <h1 className="text-center font-bold text-4xl text-[#63D5D7]">সার্ভিস সমূহ</h1>
             </div>
-            <div className="flex flex-col md:flex-row justify-around items-center text-xl">
-                <div className="flex flex-col gap-5">
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon3} />
-                        <h3>মনোরম পরিবেশ</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon8} />
-                        <h3>সার্বক্ষণিক নিরাপত্তা</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon9} />
-                        <h3>পড়াশোনার সু-ব্যবস্থা</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon10} />
-                        <h3>বিশুদ্ধ খাবার পানি</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon2} />
-                        <h3>রুম ক্লিনিং সার্ভিস</h3>
-                    </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon3} />
+                    <h3 className='text-xl font-bold'>মনোরম পরিবেশ</h3>
                 </div>
-                <div className="flex flex-col gap-5">
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon} />
-                        <h3>সিসি ক্যামেরা</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon4} />
-                        <h3>উন্নত মানের খাবার</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon5} />
-                        <h3>ফ্রিজের ব্যবস্থা</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon6} />
-                        <h3>জেনারেটরের ব্যবস্থা</h3>
-                    </div>
-                    <div className='flex justify-between gap-6 items-center'>
-                        <img className='w-20 h-20' src={icon7} />
-                        <h3>মেডিকেল সার্ভিস</h3>
-                    </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon8} />
+                    <h3 className='text-xl font-bold'>সার্বক্ষণিক নিরাপত্তা</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon9} />
+                    <h3 className='text-xl font-bold'>পড়াশোনার সু-ব্যবস্থা</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon10} />
+                    <h3 className='text-xl font-bold'>বিশুদ্ধ খাবার পানি</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon2} />
+                    <h3 className='text-xl font-bold'>রুম ক্লিনিং সার্ভিস</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon} />
+                    <h3 className='text-xl font-bold'>সিসি ক্যামেরা</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon4} />
+                    <h3 className='text-xl font-bold'>উন্নত মানের খাবার</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon5} />
+                    <h3 className='text-xl font-bold'>ফ্রিজের ব্যবস্থা</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon6} />
+                    <h3 className='text-xl font-bold'>জেনারেটরের ব্যবস্থা</h3>
+                </div>
+                <div className='p-10 border-2 border-[#63D5D7] text-center rounded-2xl'>
+                    <img className='mx-auto' src={icon7} />
+                    <h3 className='text-xl font-bold'>মেডিকেল সার্ভিস</h3>
                 </div>
             </div>
         </div>
