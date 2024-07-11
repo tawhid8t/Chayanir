@@ -1,6 +1,6 @@
 import Banner from "./Banner";
 import FAQ from "./FAQ";
-import Food from "./Food/Food";
+import Food2 from "./Food2/Food2";
 import Gallery from "./Gallery/Gallery";
 import Review from "./Review/Review";
 import RoomTypes from "./RoomTypes";
@@ -13,7 +13,7 @@ const Home = () => {
             <Service></Service>
             <RoomTypes></RoomTypes>
             <Gallery></Gallery>
-            <Food></Food>
+            <Food2></Food2>
             <Review></Review>
             <FAQ></FAQ>
         </div>
